@@ -129,6 +129,7 @@ span.blog-icon p {
     font-size: 16px;
     font-weight: 600;
     border-radius: 15px;
+    border: 1px solid #ddd;
 }
 a.blogs-sector-btn.blog-sector-bg-design {
     background: red;
@@ -165,11 +166,34 @@ a.blogs-sector-btn.blog-sector-bg-design {
  
 /* -----------------------------footer section design---------------- */
 .footer-section{
-    display: grid;
-    grid-template-columns: repeat(12. 1fr);
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .footer-items{
-    grid-column: 1 / 12;
-    background-color: #182C61;
+  background-color: #182C61;
+  text-align: center;
+  padding: 50px 0px;
+  width: 100%;
+  margin: auto;
+}
+.footer-menu{
+ 
+}
+.footer-items h1{
+    color: #fff;
+    border-bottom: 1px solid rgb(78, 77, 77);
+    padding: 25px;
+    margin-top: 0;
+}
+.footer-menu ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footer-menu ul li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 0px 15px;
 }
