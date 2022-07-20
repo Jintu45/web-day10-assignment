@@ -15,7 +15,7 @@ img{
 
 /* ----------------------header section design--------------- */
 .header-section{
-    width: 1140px;
+    width: 1200px;
     background: #2f3542;
     margin: auto;
     color: #fff;
@@ -87,7 +87,7 @@ a.button-design:hover::before{
 /* -----------------------blog section design---------------- */
 
 .blog-section{
-    width: 1140px;
+    width: 1200px;
     margin: auto;
     margin-top: 80px;
 }
@@ -219,8 +219,7 @@ a.blogs-sector-btn.blog-sector-bg-design {
     margin: auto;
     margin-top: 50px;
     grid-column: 1 / 14;
-    width: 1140px;
-    border-radius: 10px 10px 0px 0px;
+    width: 1200px;
     padding: 50px 0px;
 }
 
