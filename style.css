@@ -69,7 +69,7 @@ a.button-design::before {
     width: 0%;
     height: 100%;
     border-radius: 20px;
-    background: black;
+    background: #481407ba;
     top: 0;
     left: 0;
     transition: .4s;
@@ -106,6 +106,7 @@ a.button-design:hover::before{
 .blog-item {
     border: 1px solid #ddd;
     border-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
 }
 .blog-item-content {
     padding: 15px;
@@ -163,6 +164,7 @@ a.blogs-sector-btn.blog-sector-bg-design {
     display: grid;
     grid-template-columns: 250px repeat(12, 1fr);
     grid-gap: 15px;
+    
 }
 .blog-item1 {
     grid-column: 2 / 6;
@@ -219,6 +221,7 @@ a.blogs-sector-btn.blog-sector-bg-design {
     grid-column: 1 / 14;
     width: 1140px;
     border-radius: 10px 10px 0px 0px;
+    padding: 50px 100px;
 }
 
 .footer-items h1{
@@ -239,6 +242,15 @@ a.blogs-sector-btn.blog-sector-bg-design {
     font-weight: 500;
     color: #fff;
     padding: 0px 15px;
+}
+.footer-break{
+    display: none;
+}
+.something{
+    display: flex;
+}
+.break-point{
+    display: none;
 }
 .footer-icon{
     display: flex;
