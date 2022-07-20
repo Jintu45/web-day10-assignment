@@ -1,0 +1,31 @@
+/* -----------upcoming matches list --------- */
+.matches-list{
+
+}
+.matches-list {
+    text-align: center;
+    padding: 20px;
+}
+.matches-country {
+    display: flex;
+    align-items: center;
+}
+.matches-list.first{
+    grid-column: 2 / 6;
+}
+.matches-list.secund{
+    grid-column: 6 / 10;
+}
+.matches-list.third{
+    grid-column: 10 / 14;
+}
+.matches-list.fourth{
+    grid-column: 2 / 6;
+}
+.matches-list.fifth{
+    grid-column: 6 / 10;
+}
+.matches-list.sixth {
+    grid-column: 10 / 14;
+}
+ 
