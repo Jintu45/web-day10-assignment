@@ -210,18 +210,18 @@ a.blogs-sector-btn.blog-sector-bg-design {
     border-radius: 8px;
 }
 /* -----------------------------footer section design---------------- */
-
+.footer-section{
+    background:#182C61;
+}
 .footer-items {
-    background-color: #182C61;
+    background:#182C61;
     text-align: center;
-    padding: 50px 0px;
-    width: 100%;
     margin: auto;
     margin-top: 50px;
     grid-column: 1 / 14;
     width: 1140px;
     border-radius: 10px 10px 0px 0px;
-    padding: 50px 100px;
+    padding: 50px 0px;
 }
 
 .footer-items h1{
