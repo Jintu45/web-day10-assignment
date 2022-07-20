@@ -1,7 +1,5 @@
 /* -----------upcoming matches list --------- */
-.matches-list{
 
-}
 .matches-list {
     text-align: center;
     padding: 20px;
@@ -11,13 +9,11 @@
     display: flex;
     align-items: center;
 }
-.matches-country{
 
-}
 .matches-country span{
     font-size: 30px;
 }
-.matches-title h2{}
+
 .matches-title p {
     font-size: 17px;
     color: #7c6161;

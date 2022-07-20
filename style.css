@@ -47,12 +47,39 @@ img{
 }
 .button-design {
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     background:#eb2f06;
     padding: 10px 18px;
     font-size: 20px;
     font-weight: 400;
     border-radius: 20px;
+    width: 130px;
+    display: inline-block;
+    transition: .3s ease-in-out;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+a.button-design:hover{
+    border-color: #fff;
+}
+a.button-design::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    background: black;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    z-index: -1;
+}
+a.button-design:hover::before{
+    width: 100%;
+}
+.button-design .right-icon{
+    margin-left: 10px;
 }
 .header-img img{
     width: 420px;
@@ -64,11 +91,7 @@ img{
     margin: auto;
     margin-top: 80px;
 }
-.blogs-items{
-    display: grid;
-    grid-template-columns: 250px repeat(12, 1fr);
-    grid-gap: 15px;
-}
+
 .blogs-sector{
     text-align: center;
  }
@@ -136,6 +159,11 @@ a.blogs-sector-btn.blog-sector-bg-design {
     color: #fff;
 }
 /* ----------------------blog item design--------- */
+.blogs-items{
+    display: grid;
+    grid-template-columns: 250px repeat(12, 1fr);
+    grid-gap: 15px;
+}
 .blog-item1 {
     grid-column: 2 / 6;
  }
@@ -164,19 +192,33 @@ a.blogs-sector-btn.blog-sector-bg-design {
     grid-column: 10 / 14;
  }
  
-/* -----------------------------footer section design---------------- */
-.footer-section{
-    width: 1140px; 
-    margin: auto;
+/* -------------------blog btn full width hidden --------------- */
+.blog-btn{
+    text-align: center;
+    padding: 60px;
+    display: none;
 }
-.footer-items{
-  background-color: #182C61;
-  text-align: center;
-  padding: 50px 0px;
-  width: 100%;
-  margin: auto;
-  margin-top: 80px;
-  width: 1140px;
+.blog-btn a {
+    background: #ff3434;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+/* -----------------------------footer section design---------------- */
+
+.footer-items {
+    background-color: #182C61;
+    text-align: center;
+    padding: 50px 0px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    grid-column: 1 / 14;
+    width: 1140px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .footer-items h1{
@@ -197,4 +239,42 @@ a.blogs-sector-btn.blog-sector-bg-design {
     font-weight: 500;
     color: #fff;
     padding: 0px 15px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.footer-icon-design {
+    font-size: 25px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #7e18ff;
+    margin-right: 18px;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out ;
+}
+.footer-icon-design:hover{
+    background: #fff;
+    color: #7e18ff;
+    
+}
+.designer a {
+    color: #a5a5a5;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.designer a span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+.designer a span:hover{
+    letter-spacing: 1px;
+    color: #ff3434;
 }
